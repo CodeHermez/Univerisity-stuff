@@ -6,6 +6,7 @@ public class Llist {
     }
 
 //Bruh
+
     void insert(int num) {
         if (root == null) {
             root = new Node();
