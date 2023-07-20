@@ -36,4 +36,18 @@ public class Llist {
 
         return false;
     }
+
+    void print(){
+        if (root == null) {
+            return;
+        }
+
+        Node nPtr = root;
+        while (nPtr != null) {
+            System.out.print(nPtr.data + " ");
+
+        }
+
+    }
+
 }
